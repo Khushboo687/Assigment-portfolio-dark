@@ -4,7 +4,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: #000000;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
+
 .nav-container {
   width: 90%;
   margin: 0 auto;
@@ -70,7 +73,7 @@ ul > img {
   width: 36px;
   height: 321px;
   left: 81px;
-  top: 438px;
+  top: 436px;
 }
 .social-links > img {
   margin-top: 3px;
@@ -132,7 +135,7 @@ ul > img {
 .tag-line {
   position: absolute;
   width: 600px;
-  left: 265px;
+  left: 256px;
   top: 320px;
   line-height: 10px;
   font-family: "Segoe UI";
@@ -211,7 +214,7 @@ button {
   position: absolute;
   width: 175px;
   height: 60px;
-  left: 269px;
+  left: 256px;
 
   background: linear-gradient(90deg, #df580c 0%, #fd993d 100%);
   border-radius: 10px;
@@ -243,7 +246,7 @@ button {
 
   position: absolute;
   height: 580px;
-  top: -60px;
+  top: -75px;
   left: 30px;
   height: 650px;
 }
